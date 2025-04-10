@@ -35,3 +35,14 @@ generateBtn.addEventListener("click", () => {
     downloadBtn.style.display = "inline-block";
   });
 });
+
+    qrCodeContainer.appendChild(img);
+
+    // ✅ Show the URL as text below QR code
+    document.getElementById("urlText").textContent = `QR for: ${url}`;
+
+    // Enable download
+    downloadBtn.href = dataUrl;
+    downloadBtn.style.display = "inline-block";
+  });
+});
