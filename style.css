@@ -62,4 +62,11 @@ h2 {
   cursor: pointer;
   margin-top: 10px;
 }
+.url-preview {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+}
 
